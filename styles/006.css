@@ -1,0 +1,61 @@
+.divContact { width: 100%;
+              height: 500px;
+              background: #24292e;}
+        .divSep { width: 100%;
+                  height: 105.5px;}
+        .divSepSM { width: 100%;
+                    height: 50px;}
+        .divData {  width: 600px;
+                    height: 289px;
+                    margin-left: auto;
+                    margin-right: auto;}
+        .divDataSM { width: 200px;
+                     height: 400px;
+                     margin-left: auto;
+                     margin-right: auto;}
+              .divCAvatar {  width: 289px;
+                             height: 289px;
+                             background: url("../images/avatarGit.jpg");
+                             background-size: 289px 289px;
+                             float: left;}
+              .divCAvatarSM { width: 200px;
+                              height: 200px;
+                              background: url("../images/avatarGit.jpg");
+                              background-size: 200px 200px;}
+              .divGitLog { fill: white}
+              .divCLinks a {  color: white;
+                              font-size: 25px;
+                              font-family: Lato;
+                              float: right;
+                              margin-left: 25px;}
+              .divCLinksSM a {  width:100%;
+                                color: white;
+                                font-size: 20px;
+                                font-family: Lato;
+                                float: right;
+                                text-align: center;}
+                        .divPP { color: white;
+                                 font-size: 25px;
+                                 font-family: Lato;
+                                 float: right;
+                                 margin-left: 25px;}
+                        .divPPSM { color: white;
+                                   font-size: 20px;
+                                   font-family: Lato;
+                                   text-align: center;}
+              .divCLinks svg {  margin-right: 12px;}
+              .divCcSep { width: 50px;
+                          float: left;
+                          height: 100%;}
+              .divCTitle { padding-top: 15px;
+                           font-size: 25px;
+                           font-family: Lato Light;
+                           float: right;
+                           color: white;}
+              .divCTitleSM { font-size: 18px;
+                             font-family: Lato Light;
+                             color: white;
+                             text-align: center;}
+                    /* .mrg {  margin-left: -100px} */
+              .divCSep { padding-top: 100px;}
+              .divCSepSM { padding-top: 10px;}

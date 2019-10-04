@@ -1,0 +1,142 @@
+#divArticle { width: 100%;
+              height: 790px;
+              background: rgba(0,0,0,0.7);}
+#divArticleSM { width: 100%;
+                /* min-height: 790px;
+                max-height: 1300px; */
+                height: auto;
+                background: rgba(0,0,0,0.7);}
+          #generalDivArt  { width: 1800px;
+                            height: 790px;
+                            padding-top: 50px;
+                            padding-bottom: 50px;
+                            margin-left: auto;
+                            margin-right: auto;}
+          #generalDivArtSM { width: 100%;
+                            height: auto;
+                             padding: 25px;}
+
+                  #divArt { width: 1300px;
+                            height: 690px;
+                            padding-right: 50px;
+                            float: left;}
+                  #divArtSM { width: 100%;
+                              height: auto;}
+                        #artTitle { height: 30px;
+                                    font-size: 24pt;
+                                    font-family: Montserrat;
+                                    color: white;
+                                    float:left;}
+                            #artTitleSM { height: auto;
+                                          font-size: 20pt;
+                                          font-family: Montserrat;
+                                          text-align: center;
+                                          color: white;}
+                        #artAuthor  { height: 30px;
+                                      padding-top: 20px;
+                                      font-size: 10pt;
+                                      font-family: Lato;
+                                      color: white;
+                                      float: right;}
+                            #artAuthorSM { height: auto;
+                                           font-size: 8pt;
+                                           font-family: Lato;
+                                           white-space: pre-wrap;
+                                           color: white;
+                                           text-align: center;
+                                           margin-top: 10px;
+                                           margin-bottom: 10px;}
+                        #artText  { width: 100%;
+                                    height: 630px;
+                                    padding-top: 50px;
+                                    font-size: 12pt;
+                                    font-family: Lato;
+                                    text-align: justify;
+                                    white-space: pre-wrap;
+                                    color: white;
+                                    float:right}
+                            #artTextSM { width: 100%;
+                                         height: auto;
+                                         font-size: 12pt;
+                                         font-family: Lato;
+                                         text-align: justify;
+                                         white-space: pre-wrap;
+                                         color: white;}
+                        #artRating  { width: 300px;
+                                      height: 30px;
+                                      font-size: 12pt;
+                                      text-align: right;
+                                      color: white;
+                                      float: right;}
+                            #artRatingSM { width: auto;
+                                           height: auto;
+                                           padding-top: 10px;
+                                           margin-bottom: 10px;
+                                           text-align: center;
+                                           color: white;
+                                           margin-left: auto;
+                                           margin-right: auto;}
+                              .ratingStars { height: auto;
+                                             padding-right: 10px;
+                                             font-size: 20pt;
+                                             text-align: center;
+                                             display: inline-block;
+                                             transition-duration: 1s;}
+                                      .ratingStarsGood { color: yellow;}
+
+                  #divComments {  width: 450px;
+                                  height: 690px;
+                                  float:left;
+                                  overflow: hidden;}
+                  #divCommentsSM { width: 100%;
+                                   height: 400px;
+                                   overflow: hidden;}
+                          #divComDisplay {  width: 467px; /*450px + 17px bo kamuflujemy scroll-bara*/
+                                            height: 600px;
+                                            color: white;
+                                            overflow-y: scroll;
+                                            box-sizing: content-box;}
+                          #divComDisplaySM { width: 100%;
+                                             height: 310px;
+                                             color: white;
+                                             overflow-y: scroll;
+                                             box-sizing: content-box;}
+                                      .commentAuthor  { height:30px;
+                                                        border-top: 1px silver solid;
+                                                        font-size: 16pt;
+                                                        font-family: Montserrat;
+                                                        float: left;}
+                                      .commentInfo    { height: 30px;
+                                                        padding-top: 10px;
+                                                        margin-right: 10px;
+                                                        border-top: 1px silver solid;
+                                                        font-size: 10pt;
+                                                        font-family: Lato;
+                                                        float: right;}
+                                      .commentText    { width: 100%;
+                                                        height:auto;
+                                                        padding-bottom: 10px;
+                                                        padding-left: 10px;
+                                                        padding-right: 10px;
+                                                        padding-top: 10px;
+                                                        font-size: 12pt;
+                                                        font-family: Lato;
+                                                        float: left;}
+                                                .commentTextAdmin { background: rgba(255,0,0,0.2);}
+                                                .commentTextModer { background: rgba(19,106,193,0.2)}
+                          #divComForm    {  width: 450px;
+                                            height: 90px;
+                                            text-align: center;
+                                            color: white;}
+                          #divComFormSM  {  width: 100%;
+                                            height: 90px;
+                                            text-align: center;}
+                                    #divComForm input { width: 100%;
+                                                        margin-bottom: 5px;}
+                                    #divComForm button{ width: 100%;}
+                                    #divComFormSM input { width: 100%;
+                                                          margin-bottom: 5px;}
+                                    #divComFormSM button{ width: 100%;}
+
+                                          #divComFormMessage{ color: white;
+                                                              font-family: Lato;}

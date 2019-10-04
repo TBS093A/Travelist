@@ -1,0 +1,113 @@
+/* svg { pointer-events: none} */
+
+#mapImg  { background: url("../images/extra/gfx2.jpg")
+                    no-repeat
+                    center
+                    center
+                    fixed;}
+#mapImgSM { background: url("../images/extra/gfx2.jpg")
+                    no-repeat
+                    center
+                    center;}
+    #divMapBackground { width: 100%;
+                        height: 790px;
+                        background: rgba(0,0,0,0.7);}
+
+#generalDivMap { width:1600px;               /* formalnie 1400px ale pozostaje kwestia marginsów bocznych w divMap i divInterfaceMap */
+                height: 790px;              /*  690px + 100px bo dodajemy miejsce na paddingi*/
+                padding-top: 50px;
+                padding-bottom: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                /* background-color: rgba(0,0,0,0.6); */
+                border-radius: 10px}
+#generalDivMapSM { width: 100%;
+                   height: 790px;
+                   padding-bottom: 25px;
+                   padding-top: 25px;
+                   margin-left: auto;
+                   margin-right: auto;}
+
+          #divMap { width:800px;          /* 750 + 50px z prawej strony bo padding z interfejsu koliduje z paddingiem mapy*/
+                    height:690px;
+                    padding-left: 50px;
+                    float:left;}
+          #divMapSM { width: 300px;
+                      height: 310px;
+                      margin-left: auto;
+                      margin-right: auto;}
+                .mapRegion  { fill: rgba(19,106,193,0.6);
+                              transform: scale(0.7, 0.7);
+                              transition-duration: 200ms;}
+                .mapRegionSM { fill: rgba(19,106,193,0.6);
+                               transform: scale(0.3,0.3);
+                               transition-duration: 200ms;}
+                        .mapRegion:hover    { fill:rgba(19,106,193,0.8);
+                                              transform: scale(0.71, 0.71);}
+                        .mapRegionSM:hover  { fill:rgba(19,106,193,0.8);
+                                              transform: scale(0.31, 0.31);}
+                        .mapRegionOpen      { fill:rgba(255,0,0,0.5);         /*dobre do kliknięcia / zaznaczania przez ReactJS*/
+                                              transform: scale(0.71, 0.71);}
+                        .mapRegionOpenSM    { fill:rgba(255,0,0,0.5);         /*dobre do kliknięcia / zaznaczania przez ReactJS*/
+                                              transform: scale(0.31, 0.31);}
+
+          #divInterfaceMap  { width:750px;  /* 750px bo mamy z lewej strony divSeparator z borderem*/
+                              height:690px;
+                              padding-left: 50px;
+                              float:left;}
+          #divInterfaceMapSM { width: 100%;
+                               height: 480px;}
+                        .regionTitle {  width:100%;
+                                        height: 60px;
+                                        font-size: 24pt;
+                                        text-align: center;
+                                        font-family: montserrat;
+                                        color: rgba(19,106,193,1);}
+                        .regionTitleSM{ font-size: 18pt !important; }
+                                  #generalList { width: 100%;
+                                                 height: 590px;
+                                                 overflow-y: scroll;}
+                                          #generalList::-webkit-scrollbar { display: none; }
+                                  #generalListSM { width: 100%;
+                                                   height: 340px;
+                                                   overflow-y: scroll;}
+                                          #generalListSM::-webkit-scrollbar { display: none; }
+                                  .articleList  { width: 100%;
+                                                  height: 50px;
+                                                  padding-top: 10px;
+                                                  font-size: 12pt;
+                                                  font-family: lato;
+                                                  border-bottom: 1px silver solid;
+                                                  color: white;
+                                                  background: rgba(19,106,193,0);
+                                                  transition-duration: 200ms;}
+                                  .articleListSM { font-size: 9pt !important;
+                                                   padding-top: 15px !important;}
+                                            .articleList:hover{ background: rgba(19,106,193,0.2);}
+                                            .articleList:active{ background: rgba(255,0,0,0.2);}
+                                            .listColAuthor {  width:50%;
+                                                              text-align: center;
+                                                              float: left;}
+                                            .listColTitle  {  width:50%;
+                                                              text-align: center;
+                                                              float: right;}
+                                                              .articleListT  { width: 100%;
+                                                                              height: 50px;
+                                                                              padding-top: 10px;
+                                                                              font-size: 12pt;
+                                                                              font-family: lato;
+                                                                              border-bottom: 1px silver solid;
+                                                                              color: white;
+                                                                              background: rgba(19,106,193,0);}
+                                                                              .listColAuthorT {  width:50%;
+                                                                                                 text-align: center;
+                                                                                                 float: left;}
+                                                                              .listColTitleT  {  width:50%;
+                                                                                                 text-align: center;
+                                                                                                 float: right;}
+          #divSeparator   { width: 49px;
+                            height: 500px;
+                            margin-top: 95px;
+                            margin-bottom: 95px;
+                            border-left: 1px silver solid;
+                            float:left;}

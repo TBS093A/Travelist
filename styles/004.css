@@ -1,0 +1,158 @@
+#divPanel { background: url("../images/extra/gfx3.jpg")
+                    no-repeat
+                    center
+                    center
+                    fixed;}
+#divPanelSM { background: url("../images/extra/gfx3.jpg")
+                    no-repeat
+                    center
+                    center;}
+          #divPanelBackground { width: 100%;
+                                height: 790px;
+                                background: rgba(0,0,0,0.7);}
+                    #generalDivPanel  { width: 1800px;
+                                        height: 790px;
+                                        padding-top: 50px;
+                                        padding-bottom: 50px;
+                                        margin-left: auto;
+                                        margin-right: auto;}
+                    #generalDivPanelSM {  width: 100%;
+                                          height: 790px;
+                                          padding-top: 50px;
+                                          padding-bottom: 50px;
+                                          margin-left: auto;
+                                          margin-right: auto;
+                                          overflow: hidden;}
+                              #panelInterface {   width: 400px;
+                                                  height: 690px;
+                                                  float: left}
+                              #panelInterfaceSM {   width: 100%; }
+                                      #divButtonCon { width: 300px;
+                                                      margin-top: 156px;
+                                                      margin-left: auto;
+                                                      margin-right: auto;}
+                                      #divButtonConSM { height: 70px;
+                                                        width: 100%;
+                                                        overflow-x: scroll;}
+                                      #divButtonConSMScroll { width: 2000px;
+                                                              height: 30px;}
+                                      .divButton  { width: 300px;}
+                                      .divButtonSM {  width: 300px;
+                                                      display: inline-block;}
+                                      .divBttSep  { width: 100%;
+                                                    height: 30px;}
+                                      .divBttSepSM  { width: 30px;
+                                                      height: 100%;
+                                                      display: inline-block;}
+
+                              #panelForm {  width: 1350px; /* 1350px + 17px bo hiddenujemy scroll*/
+                                            height: 690px;
+                                            float: left;
+                                            overflow-y: scroll;
+                                            box-sizing: content-box;}
+                                            #panelForm::-webkit-scrollbar { display: none; }
+                              #panelFormSM { width: 100%;
+                                             height: 680px;
+                                             overflow-y: scroll;
+                                             box-sizing: content-box;}
+                                             #panelFormSM::-webkit-scrollbar { display: none; }
+                                      #panelAccount { width: 600px;
+                                                      margin-top: 205px;
+                                                      margin-left: auto;
+                                                      margin-right: auto;
+                                                      text-align: center;
+                                                      color: white;}
+                                      #panelAccountSM { width: 300px;
+                                                        margin-top: 150px;
+                                                        margin-left: auto;
+                                                        margin-right: auto;
+                                                        text-align: center;
+                                                        color: white;}
+                                                .accountPass { font-size: 24pt;}
+                                                #accountForm {  width: 300px;
+                                                                margin-left: auto;
+                                                                margin-right: auto;}
+
+                                      #panelArticleAdd { width: 1000px;
+                                                         color: white;
+                                                         margin-left: auto;
+                                                         margin-right: auto;}
+                                      #panelArticleAddSM { width: 300px;
+                                                           color: white;
+                                                           margin-left: auto;
+                                                           margin-right: auto;}
+                                              #articleAddFirst { width: 100%;
+                                                                 height: 40px;}
+                                              #articleAddFirstSM { width: 300px;
+                                                                   height: 170px;
+                                                                   margin-left: auto;
+                                                                   margin-right: auto;}
+                                                      #sendButton { width: 300px;
+                                                                    height: 40px;}
+                                                            #sendButton input { opacity: 0;}
+                                                            #sendButton p { margin-top: -30px;}
+                                              .articleAddInputAlign { width: 300px;
+                                                                      float: left;}
+                                              .articleAddInputSep { width: 45px;
+                                                                    height: 15px;
+                                                                    float: left;}
+                                              .articleAddInputSepSM { width: 100%;
+                                                                      height: 45px;}
+                                      .panelFormTable { width:100%;
+                                                        height: 40px;
+                                                        color: white;
+                                                        border-bottom: 1px solid silver;
+                                                        margin-top: 10px;
+                                                        margin-left: auto;
+                                                        margin-right: auto;}
+                                               .panelFormUserRow { width: 20%;
+                                                                   text-align: center;
+                                                                   float:left;}
+                                                 .panelFormUserRowSM { width: 20%;
+                                                                       text-align: center;
+                                                                       float: left;
+                                                                       font-size: 10px;}
+
+                                                                       .panelFormUserRowU { width: 33.3%;       /*dla zwykłych użytkowników*/
+                                                                                            text-align: center;
+                                                                                            float:left;}
+                                                                         .panelFormUserRowSMU { width: 33.3%;
+                                                                                                text-align: center;
+                                                                                                float: left;
+                                                                                                font-size: 10px;}
+                                               .panelFormArticleRow { width:25%;
+                                                                      text-align: center;
+                                                                      float: left;}
+                                                  .panelFormArticleRowSM { width: 25%;
+                                                                           text-align: center;
+                                                                           float: left;
+                                                                           font-size: 10px;}
+                                               .panelFormRatingsRow { width:25%;
+                                                                       text-align: center;
+                                                                       float: left;}
+                                                  .panelFormRatingsRowSM { width: 25%;
+                                                                           text-align: center;
+                                                                           float: left;
+                                                                           font-size: 10px;}
+                                               .panelFormTableCom { width:100%;
+                                                                     height: 200px;
+                                                                     color: white;
+                                                                     border-bottom: 1px solid silver;
+                                                                     margin-top: 10px;
+                                                                     margin-left: auto;
+                                                                     margin-right: auto;}
+                                               .panelFormCommentsRow { width:25%;
+                                                                         text-align: center;
+                                                                         float: left;}
+                                                   .panelFormCommentsRowSM { width:25%;
+                                                                             text-align: center;
+                                                                             float: left;
+                                                                             font-size: 10px;}
+
+                                                                #messagePrivilige p { color: white;
+                                                                                      text-align: center;
+                                                                                      font-family: Lato;}
+                                                                #messagePriviligeSM p { color: white;
+                                                                                        text-align: center;
+                                                                                        font-family: Lato;
+                                                                                        font-size: 10px;}
