@@ -17,11 +17,15 @@ ReactJS / PHP
 
 ![Article](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12abb353-ab91-4433-96d3-b5d9c5847254/de1p3sw-40a512a5-4a9f-4779-b9d1-6b4b6cdaee1a.png/v1/fill/w_1280,h_720,q_80,strp/__travelist_blog___4_by_00x097_de1p3sw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03MjAiLCJwYXRoIjoiXC9mXC8xMmFiYjM1My1hYjkxLTQ0MzMtOTZkMy1iNWQ5YzU4NDcyNTRcL2RlMXAzc3ctNDBhNTEyYTUtNGE5Zi00Nzc5LWI5ZDEtNmI0YjZjZGFlZTFhLnBuZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.vrO9fnZwtEukqyZ8jKEqXkJRlnExjfXLsO5SpHeJyr8)
 
-5. **Administration Panel**
+5. **Article - View as Admin Account**
+
+![AdminView](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12abb353-ab91-4433-96d3-b5d9c5847254/de1p4lc-6c315e52-a6b0-458a-a92f-b7178a82744d.png/v1/fill/w_1280,h_720,q_80,strp/__travelist_blog___9_by_00x097_de1p4lc-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03MjAiLCJwYXRoIjoiXC9mXC8xMmFiYjM1My1hYjkxLTQ0MzMtOTZkMy1iNWQ5YzU4NDcyNTRcL2RlMXA0bGMtNmMzMTVlNTItYTZiMC00NThhLWE5MmYtYjcxNzhhODI3NDRkLnBuZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.QEAbhhz36ZMsJ4Z2FISphFVcZqpipj_Nc9zSm2Wl77M)
+
+6. **Administration Panel**
 
 ![APanel](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12abb353-ab91-4433-96d3-b5d9c5847254/de1p3tb-eef6bfe8-73de-47a7-a1e1-b0df3e11543c.png/v1/fill/w_1280,h_720,q_80,strp/__travelist_blog___5_by_00x097_de1p3tb-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03MjAiLCJwYXRoIjoiXC9mXC8xMmFiYjM1My1hYjkxLTQ0MzMtOTZkMy1iNWQ5YzU4NDcyNTRcL2RlMXAzdGItZWVmNmJmZTgtNzNkZS00N2E3LWExZTEtYjBkZjNlMTE1NDNjLnBuZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Tuw04blVqVKwXEtpoY65v4-MQN0WgFDPi2dOINdDsHY)
 
-6. **Administration Panel - CRUD**
+7. **Administration Panel - CRUD**
 
 Every tables in database have a Admin CRUD Panel on this page. Example:
 
