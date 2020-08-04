@@ -1,5 +1,5 @@
 # Travelist---page
-ReactJS / PHP
+ReactJS / CSS / PHP
 
 1. **Main Page**
 
